@@ -40,6 +40,3 @@ def visualization(predictions, norm=True):
     plt.xticks(x)
     plt.savefig(BAR_NAME)
     return figure
-
-import os
-os.system("pip list")
