@@ -14,7 +14,7 @@ layout = [
              sg.Checkbox(text="Normalized results", key="-MODE-")],
             [sg.Image(source="icons/bar_icon.png", subsample=3, background_color="white", size=OUTPUT_IMAGE_SIZE,
                       key="-RESULTS-")]])]]
-window = sg.Window('🐸 Draw number -> see results 🐸', layout, finalize=True, font="Helvetica")
+window = sg.Window('🐸 Draw a number -> see the results 🐸', layout, finalize=True, font="Helvetica")
 while True:
     event, values = window.read()
     if event == "-DRAW-":
